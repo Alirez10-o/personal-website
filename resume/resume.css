@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1e0c6;
+}
+
+nav {
+    background-color: #273b53;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1e0c6;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ceba8b8f;
+}
+
+#general {
+    padding-top: 30px;
+    height: 100%;
+    line-height: 1.5;
+    color: #273b53;
+    font-size: large;
+}
+
+section {
+    padding: 20px;
+    border: 2px solid #273b53;
+    background-color: #ceb58b8f;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #273b53; /* خط جداکننده تیتر */
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f1e0c6;
+}
+
+table, th, td {
+    border: 1px solid #273b53;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #273b53;
+    color: #f1e0c6;
+}
+
+img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.project-link {
+    color: #273b53;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color: #ceb58b;
+}
